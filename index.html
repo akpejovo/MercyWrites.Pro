@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <meta name="description" content="Unlock the power of compelling storytelling with Mercy Akpokere, your go-to wordsmith for bespoke content solutions. Elevate your brand or project with engaging articles, persuasive copy, and captivating narratives. As an experienced writer, I bring creativity and expertise to every project, delivering content that resonates and drives results. Explore the possibilities of impactful storytelling and collaborate with a seasoned writer dedicated to bringing your vision to life.">
 
@@ -634,32 +634,55 @@ https://templatemo.com/tm-578-first-portfolio
         </main>
 
         <!-- ==================== Start NC-Copyright Watermark ==================== -->
-    <style>
+        <div class="background">
+        <footer>
+            <p><span class="NC-Copyright1">&copy; <span id="currentYear"></span> <a href="https://MercyWrites.Pro" target="_blank" style="color: #14B789;text-transform: none;font-weight: bolder;">MercyWrites.Pro, </a> All rights reserved <span class="emoji">⚖️</span></p>
+            <p class="NC-Copyright2">Designed & Built By
+                <a rel="sponsored" href="https://nexuscrew.io/" target="_blank" style="color: #14B789; text-transform: none; font-weight: bolder;">NexusCrew.io 🚀</a></p>
+        </footer>
+        </div>
 
-        .NC-Copyright1{
+    <style>
+        .background {
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .NC-Copyright1 {
         margin: 0 auto; /* Center the line horizontally */
-        width: 500px; /* Adjust the width as needed */
+        width: 200px; /* Adjust the width as needed */
         border-bottom: 0.5px solid #007bff; /* Adjust the color as needed */
         margin-bottom: 7px; /* Adjust the margin as needed */
         color: black;
+
+        text-align: center;
+        row-gap: 150px;
+        width: 300px;
         font-weight: bolder;
         }
 
-        .NC-Copyright1, .NC-Copyright2  {
-        display: block;
-        row-gap: 150px;
+        .NC-Copyright2{
+        margin: 0 auto; /* Center the line horizontally */
+        width: 200px; /* Adjust the width as needed */
+        margin-bottom: 40px; /* Adjust the margin as needed */
+        color: black;
         text-align: center;
-        text-transform: uppercase;
-        padding-bottom: 5px;
-        padding-top: 5px;
-        border-top: 1px solid var(--border-color);
-        font-weight: 500;
-        font-weight: bolder;}
+        row-gap: 150px;
+        width: 500px;
+        font-weight: bolder;
+        }
 
         .emoji {
             font-size: 22px;
         }
-            </style>
+
+        @media (max-width: 768px) {
+        .NC-Copyright1,
+        .NC-Copyright2 {
+            width: 90%; /* Adjust the width for smaller screens */
+        }
+        
+        </style>
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
@@ -675,11 +698,6 @@ https://templatemo.com/tm-578-first-portfolio
     </script>
 
 
-        <div class="copyright-background">
-        <p><span class="NC-Copyright1">&copy; <span id="currentYear"></span> <a href="https://MercyWrites.Pro" target="_blank" style="color: #14B789;text-transform: none;font-weight: bolder;">MercyWrites.Pro, </a> All rights reserved <span class="emoji">⚖️</span></p>
-        <p class="NC-Copyright2">Designed & Built By
-            <a rel="sponsored" href="https://nexuscrew.io/" target="_blank" style="color: #14B789; text-transform: none; font-weight: bolder;">NexusCrew.io 🚀</a></p>
-        </div>
 
     <!-- ==================== End NC-Copyright Watermark ==================== -->
 
