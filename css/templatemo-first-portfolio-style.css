@@ -163,52 +163,6 @@ strong {
 /*---------------------------------------
   PRE LOADER               
 -----------------------------------------*/
-.preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 99999;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: center;
-  background: none repeat scroll 0 0 var(--white-color);
-}
-
-.spinner {
-  border: 1px solid transparent;
-  border-radius: var(--border-radius-small);
-  position: relative;
-}
-
-
-.spinner:before {
-  content: '';
-  box-sizing: border-box;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 45px;
-  height: 45px;
-  margin-top: -10px;
-  margin-left: -10px;
-  border-radius: 50%;
-  border: 1px solid var(--border-color);
-  border-top-color: var(--white-color);
-  animation: spinner .9s linear infinite;
-}
-
-@-webkit-@keyframes spinner {
-  to {transform: rotate(360deg);
-  }
-}
-
-@keyframes spinner {
-  to {transform: rotate(360deg);}
-}
-
 
 /*---------------------------------------
   CUSTOM ICON               
@@ -1233,32 +1187,6 @@ strong {
   display: inline-block;
   height: 9vh;
   width: 30%
-}
-
-.hero {
-  position: relative;
-  animation: slideLeftAnimation 2.5s ease-in-out forwards;
-}
-
-@keyframes slideLeftAnimation {
-  from {
-    transform: translateX(100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(-5%);
-  }
-  50% {
-    transform: translateX(5%);
-  }
-  75% {
-    transform: translateX(-2%);
-  }
-  100% {
-    transform: translateX(0);
-  }
 }
 
 
